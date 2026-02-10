@@ -11,7 +11,7 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.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}` // sicher über ENV
+        Authorization: `Bearer ${process.env.sk-or-v1-5c5cd000096f0365c1195a5f7688c02a32dfd9277f864fb16fc625d-f456a1ece}` // sicher über ENV
       },
       body: JSON.stringify({
         model: "xiaomi/mimo-v2-flash:free", // kostenloses Modell
